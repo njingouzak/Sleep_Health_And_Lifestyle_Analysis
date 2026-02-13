@@ -33,12 +33,13 @@ The Sleep Health and Lifestyle Dataset comprises 374 rows and 13 columns, coveri
 - `Sleep Disorder`: The presence or absence of a sleep disorder in the person (None, Insomnia, Sleep Apnea).
 
 ---
-## **Tools**
+## **Tools and Technologies**
 - Python
-- Pandasy
+- Pandas
 - Numpy
 - Scikit-Learn
 - Jupyter Notebook
+- Machine Learning
 
 ----
 ## **Steps Involved**
@@ -58,8 +59,16 @@ The Sleep Health and Lifestyle Dataset comprises 374 rows and 13 columns, coveri
 ----
 ## **Key Findings**
 
+Based on the evaluation of five machine learning models for sleep disorder detection, the following observations have been made:
 
+**- Tuned Support Vector Machine (SVM) is the Optimal Model:** The SVM model, after hyperparameter tuning with GridSearchCV, achieved the highest overall performance with an accuracy and F1-score **exceeding 91.6%**. Its ability to model complex, non-linear relationships in the data (using the rbf kernel) makes it particularly well-suited for this classification task.
 
+**- Ensemble Methods are Highly Effective:** The Gradient Boosting model (ensemble method) also demonstrated exceptional performance, reaching **over 90%** in all metrics. This reinforces the idea that combining multiple weak learners can create a powerful and robust predictive model for this kind of health and lifestyle dataset.
 
+----
+## **Conclusion**
 
+In summary, the project successfully demonstrates that machine learning can be a powerful tool for predicting sleep disorders based on lifestyle and health metrics. With careful data preparation and model selection, specifically a **tuned Support Vector Machine**, we can achieve high predictive accuracy, paving the way for potential applications in preventive healthcare and personalized wellness.
+
+----
 
